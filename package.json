@@ -52,5 +52,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://social-media-server-psi-mocha.vercel.app/"
+  "proxy": "social-media-server-psi-mocha.vercel.app/"
 }
