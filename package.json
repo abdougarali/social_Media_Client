@@ -52,5 +52,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://127.0.0.1:6000"
+  "proxy": "https://social-media-server-i73k.onrender.com"
 }
