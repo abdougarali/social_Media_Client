@@ -1,0 +1,90 @@
+.mainContainerForSignUp{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color:#f0f2f5;
+    height: 100vh;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    justify-content:space-around ;
+}
+
+
+
+.createaccountTxt{
+   font-size: 20px;
+   text-align: start;
+   margin-top: 10px;
+   margin-left: 30%;
+    
+}
+
+.logo_text{
+    text-align:start;
+    font-size: 40px;
+    /* padding-top: 200px; */
+    margin-top: 0px;
+}
+.intro_text{
+    text-align: start;
+    font-size: 20px;
+    margin-top:-30px;
+}
+.inputText{
+    display: flex;
+    margin-left: 30%;
+    width: 40%;
+    margin-top:20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.btnforSignUp{
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 153px;
+    padding-right: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+
+
+
+@media (max-width:600){
+    .mainContainer{
+        flex-direction: column;
+    }
+    /* .mainContainer div{
+        margin: 20px;
+    } */
+    /* .logo_text{
+        margin-bottom: 0;
+    } */
+    .intro_text{
+        display: none;
+    }
+
+  .createaccountTxt{
+    margin-top: 20px;
+  }
+  .inputText{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .btnforSignUp{
+    /* flex-basis: 30%; */
+    width: 50px;
+    margin-bottom: 10px;
+    display:block;
+    text-align: center;
+
+  }
+
+}

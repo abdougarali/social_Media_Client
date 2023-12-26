@@ -1,0 +1,9 @@
+.link_login{
+    /* margin-right: 30% !important; */
+    padding-right:200px;
+    color: black;
+   
+}
+.link_login:hover{
+    color: blue;
+}

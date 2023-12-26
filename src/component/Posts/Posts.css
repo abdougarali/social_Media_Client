@@ -1,0 +1,72 @@
+.Post{
+    background: #fff;
+    margin: 5px 0 15px;
+    padding: 20px 25px 5px;
+}
+.Post-author{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.Post-author img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+.Post-author h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+.Post-author small{
+    display: block;
+    margin-bottom: 2px;
+}
+.post-stats{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+}
+.post-stats div{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.post-stats img{
+    width: 15px;
+    margin-right: -5px;
+}
+.Comment{
+    text-decoration: none;
+    color: #777;
+}
+
+.Liked-user{
+    margin-left: 10px;
+}
+.post-activity{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:2%; 
+    padding-bottom: 1%;
+    cursor: pointer;
+   
+}
+
+.Like{
+    color:red;
+    }
+    
+    .disLike{
+        color: #333;
+    }
+    

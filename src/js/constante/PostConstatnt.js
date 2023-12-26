@@ -1,0 +1,7 @@
+export const ADD_POST="ADD_POST"
+export const UPDATE_POST="UPDATE_POST"
+export const GET_ALL_POST_USER="GET_ALL_POST_USER"
+export const GET_ALL_POSTS="GET_ALL_POSTS"
+export const GET_LOADING="GET_LOADING"
+export const LOAD_COMMENTS="LOAD_COMMENTS"
+export const GET_ONE_POST="GET_ONE_POST"
